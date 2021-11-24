@@ -1,0 +1,273 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* reset styles across browsers */
+*, *:after, *:before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+  }
+
+body{
+	font-family: 'Barlow', sans-serif;
+	font-weight: 600;
+}
+
+.main-container {
+	width: 100vw;
+	height:90vh;
+	background-image: url(img/image-header.jpg);
+	background-position:center;
+	background-size:cover;
+}
+.nav-container{
+	width:90%;
+	margin:0px auto;
+	position:relative;
+}
+.nav-container img{
+	position: absolute;
+	top:13px;
+	width:10%;
+}
+.nav-container ul{
+	text-align: right;
+	list-style:none;	
+	
+}
+.nav-container ul li {
+	display:inline-block;
+	margin-right:7px;
+	padding: 5px;
+	
+	
+}
+.nav-container ul li a{
+	text-decoration: none;
+	font-size:1rem;
+	font-weight:400;
+	color:white;
+
+}
+.nav-container ul li:last-child{
+	text-transform: uppercase;
+	font-family: 'Fraunces', serif;
+	border:0px solid #19536b;
+	background:transparent;
+	border-radius:10px;
+}
+
+.nav-container ul li a:hover{
+	color: white;
+}
+
+.nav-container ul li:last-child:hover{
+	background:#19536b;
+}
+.hero-container{
+	width:90%;
+	height:100%;
+	margin: 40px auto;
+	position:relative;
+}
+.hero-container h1{
+	position: relative;
+	top:120px;
+	padding: 20px;
+	margin:0px auto;
+	text-align: center;
+	font-size: 2.5rem;
+	font-family: 'Fraunces', serif;
+	font-weight: 600;
+	color:white;
+}
+.hero-container h1 a:hover{
+	color:black;
+}
+.hero-container img{
+	width:30px;
+	height:120px;
+	position:relative;
+	left:47%;
+	top:190px;
+}
+
+.section-container{
+	width: 100%;
+	
+}
+.row-1, .row-2, .row-3{
+	width:100%;
+	display:flex;
+	flex-direction:row;
+	
+}
+
+.box1{
+	border: 1px solid white;
+	width: 50%;
+	height: 40rem;
+	
+
+}
+#box-img1{
+	background-color: white;
+}
+#box-img2{
+	background-image: url(img/image-transform.jpg);
+	background-size: cover;
+	background-position:center;
+}
+
+#box-img3{
+	background-image: url(img/image-stand-out.jpg);
+	background-size:cover;
+	background-position:center;
+}
+
+#box-img4{
+background-color:white;
+}
+#box-img5{
+	background-image: url(img/image-graphic-design.jpg);
+	background-size:cover;
+	background-position:center;
+}
+
+#box-img6{
+	background-image: url(img/image-photography.jpg);
+	background-size:cover;
+	background-position:center;
+}
+.inner-section{
+	width:100%;
+	height:100%;
+}
+
+.inner-section h2 {
+	font-size: 3rem;
+	font-family: 'Fraunces';
+	padding:5px;
+	padding-left: 10rem;
+	padding-top: 10rem;
+	margin-top:15px;
+	color:black;
+	
+}
+
+.inner-section p{
+	font-size: 18px;
+	font-family: 'Barlow';
+	font-weight: 400;
+	padding: 5px;
+	padding-left: 10rem;
+	margin-bottom: 5px ;
+	color:gray;
+	opacity:0.6;
+}
+
+.inner-section a{
+	font-size:14px;
+	font-family:'Fraunces';
+	font-weight:700;
+	text-transform: uppercase;
+	padding:5px;
+	padding-left: 10rem;
+	margin-top:10px;
+	color:black;
+	text-decoration: underline;
+	text-decoration-color:yellow;
+	text-decoration-thickness: 5px;
+}
+
+.inner-section2{
+	width:100%;
+	height:100%;
+
+}
+.inner-section2 h2{
+	font-size: 3rem;
+	font-family: 'Fraunces';
+	padding:5px;
+	padding-left: 10rem;
+	padding-top: 10rem;
+	margin-top:15px;
+	color:black;
+}
+.inner-section2 p{
+	font-size: 18px;
+	font-family: 'Barlow';
+	font-weight: 400;
+	padding: 5px;
+	padding-left: 10rem;
+	margin-bottom: 5px ;
+	color:gray;
+	opacity:0.6;
+}
+
+
+.inner-section2 a{
+	font-size:14px;
+	font-family:'Fraunces';
+	font-weight:700;
+	text-transform: uppercase;
+	padding:5px;
+	padding-left: 10rem;
+	margin-top:10px;
+	color:black;
+	text-decoration: underline;
+	text-decoration-color:pink;
+	text-decoration-thickness: 5px;
+}
+
+.inner-section3{
+	width:100%;
+	height:100%;
+	
+}
+
+.inner-section3 h2{
+	font-size: 0.6rem;
+	font-family:serif;
+	font-weight:600;
+	padding:5px;
+	margin-top:90px;
+	color:black;
+	text-align: center;
+}
+.inner-section3 p{
+	font-size: 10px;
+	font-family:serif;
+	font-weight: 300;
+	text-align:center;
+	white-space:wrap;
+	padding: 5px;
+	color:black;
+	opacity:0.6;
+}
+
+.inner-section4{
+	width:100%;
+	height:100%;
+	
+}
+
+.inner-section4 h2{
+	font-size: 0.6rem;
+	font-family:serif;
+	font-weight:600;
+	padding:5px;
+	margin-top:90px;
+	color:black;
+	text-align: center;
+}
+.inner-section4 p{
+	font-size: 10px;
+	font-family:serif;
+	font-weight: 300;
+	text-align:center;
+	white-space:wrap;
+	padding: 5px;
+	color:black;
+	opacity:0.6;
+}
